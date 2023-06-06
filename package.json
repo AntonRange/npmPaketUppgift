@@ -1,8 +1,9 @@
 {
   "dependencies": {
+    "express": "^3.0.0",
     "krypteringspaket": "^1.0.0",
     "mathcalculatorbyantonn": "^1.0.0",
-    "randomphotos": "^1.0.0",
+    "randomphotos": "^2.0.0",
     "webpack": "^5.85.0"
   },
   "devDependencies": {
