@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hej</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hej</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div id="content">
+    <div id="calculator">
+      <div id="inputsForMatch">
+        <p id="numbers"></p>
+      </div>
+      <div id="numberButtonsAndClearWrapper">
+        <div id="mathstuff"></div>
+        <button id="clearValue">clear</button>
+      </div>
+      <div id="whatCalculation">
+        <button class="buttonStyling operator" id="addition">addition</button>
+        <button class="buttonStyling operator" id="subtraction">subtraction</button>
+        <button class="buttonStyling operator" id="multiplication">multiplication</button>
+        <button class="buttonStyling operator" id="division">division</button>
+        <button class="buttonStyling operator" id="equals">=</button>
+      </div>
+    </div>
+      <div id="randomPhotosAndQuotes">
+        <button id="generateNew">Generate</button>
+        <p id="quote"></p>
+        <p id="quoteAuthor"></p>
+        <img id="catImg">
+      </div>
+  </div>
+  <script src="dist/bundle.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
